@@ -1,0 +1,80 @@
+.right_side {
+  display: flex;
+  flex: 0.75;
+  background-color: #363a3f;
+  height: 100vh;
+  flex-direction: column;
+}
+.left_side_div {
+  display: flex;
+  align-items: center;
+}
+.left_side_div h2 {
+  color: white;
+}
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 4px;
+}
+.right_side_div {
+  display: flex;
+}
+.input_search {
+  display: flex;
+  align-items: center;
+  background-color: #2f3135;
+  color: gray;
+  border-radius: 3px;
+  padding: 3px;
+}
+.input_search > input {
+  background: transparent;
+  outline-width: 0;
+  color: white;
+  border: none;
+}
+.icons-top {
+  color: gray;
+  margin: 0 3px;
+}
+.span_channel_name {
+  font-size: 30px;
+  color: gray;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.bottom_bar_message {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin: 20px;
+  border-top: 1px solid gray;
+  background-color: #474b53;
+}
+.bottom_bar_message > form > input {
+padding: 15px;
+background: transparent;
+border: none;
+outline-width: 0;
+color: white;
+font-size: large;
+width: 100%;
+}
+.bottom_bar_message > form {
+    flex: 1;
+}
+
+.submit_button{
+    display: none;
+}
+
+

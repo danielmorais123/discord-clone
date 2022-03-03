@@ -1,0 +1,89 @@
+.left_side {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+
+  background-color: #2f3135;
+}
+.left_side_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.left_side_top h2 {
+  color: white;
+}
+.left_side_back_arrow {
+  color: white;
+}
+
+.left_side_channels {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.left_side_text_channels_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.left_side_left_text_channels_info {
+  display: flex;
+  align-items: center;
+}
+.left_side_text_channels_info_icons,
+.left_side_left_text_channels_info h4 {
+  color: gray;
+}
+
+.voice_connected_signal {
+  display: flex;
+  
+}
+.signal-icon,
+.voice_connected_signal p {
+  color: rgb(39, 151, 108);
+}
+.voice_connected_signal p{
+    font-weight: bold;
+}
+
+.left_side_voice_chat{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.info-call-icons{
+    color: gray;
+}
+.profile_tab{
+    display: flex;
+}
+.left_side_bottom_tab{
+    padding: 10px;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.profile_info h4, .profile_info h5{
+    color: white;
+}
+.profile_info{
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icons-profile{
+    color: white;
+     margin: 0 5px;
+}
+
+

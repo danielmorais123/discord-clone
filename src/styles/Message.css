@@ -1,0 +1,30 @@
+.messages_bar{
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+.autor_data{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.messages_bar:hover{
+    background-color: #40464b;
+    
+}
+
+.message p{
+    padding: 0 10px;
+    margin:0 10px
+}
+
+
+.autor_data h4{
+    margin: 0 10px
+}
+.avatar{
+    margin-left: 5px;
+}
